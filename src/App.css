@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*left side*/
+
+.left-panel {
+  width: 30%;
+  background: #1d4c72;
+  color: white;
+}
+
+.left-panel h2 {
+  background-color: #163d5b;
+  color: white;
+  padding: 5px 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.name-and-pic {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  margin-top: 23px;
+}
+
+.name-title h1 {
+  font-size: 35px;
+  text-align: left;
+  color: white;
+  margin-left: 25px;
+  line-height: 1.4;
+}
+
+.contact {
+  margin-top: 30px;
+}
+
+.contact-content {
+  margin: 20px 0 30px 25px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.skills-content {
+  margin: 20px 30px 25px 40px;
+}
+
+.skills li {
+  margin-bottom: 13px;
+  font-size: 14px;  
+}
+
+/*right side*/ 
+
+.right-panel {
+  width: 70%;
+  background: #fff;
+  padding: 20px;
+}
+
+.description {
+  margin: 7px 5px 25px 5px;
+  font-size: 15px
+}
+
+.education h2,
+.experience h2 {
+  margin: 20px 0;
+  font-size: 21px;
+  border-top: 2px solid #d5d6d6;    
+  border-bottom: 2px solid #d5d6d6;
+  padding: 5px 0;
+  color: #1d4c72;
+}
+
+.education-container {
+  display: flex;
+}
+
+.education-left-spacer {
+  width: 22%
+}
+
+.education-content {
+  margin: 0 0 10px 15px;
+  font-size: 16px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.experience-item {
+  display: flex;
+}
+
+.experience-year {
+  width: 24%;
+  line-height: 2;
+}
+
+.experience-content-right {
+  flex: 1; 
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.experience-content {
+  line-height: 1.7;
+}
+
+.experience-content ul {
+  padding-top: 5px;
+  padding-left: 1.2rem;
+}
