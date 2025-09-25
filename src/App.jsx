@@ -7,7 +7,7 @@ function Name() {
   return (
     <div className="name-and-pic">
       <div className="profile-pic">
-        <img src="/public/picture.png" width="205" />
+        <img src="/picture.png" width="205" />
       </div>
       <div className="name-title">
         <h1>Sophia</h1>
